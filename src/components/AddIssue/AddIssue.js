@@ -10,10 +10,10 @@ function AddIssue() {
       <form>
         <label>
           Description
-          <input type="text" />
+          <input type="text" placeholder="Description of issue..." />
         </label>
         <label>
-          Assign To:
+          Assign To
           <select name="forDev" id="forDev">
             <option value="Jim">Jim</option>
             <option value="Olivia">Olivia</option>
@@ -22,9 +22,11 @@ function AddIssue() {
           </select>
         </label>
         <label>
-          Priority Level:
+          Priority
           <select name="priority" id="priority">
-            <option value="Low">Low</option>
+            <option value="Low" selected>
+              Low
+            </option>
             <option value="Medium">Medium</option>
             <option value="High">High</option>
             <option value="Immediate">Immediate</option>
